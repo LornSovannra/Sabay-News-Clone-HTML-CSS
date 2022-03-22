@@ -1,0 +1,415 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: "Khmer OS Battambang";
+}
+
+#logo-header{
+    background: black;
+    padding: 0 30px;
+}
+
+#logo img{
+    width: 80px;
+    padding: 10px 0;
+}
+
+nav{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#nav-menu-header{
+    background: rgb(172, 172, 37);
+    padding: 0 30px;
+}
+
+#nav-menu ul{
+    display: flex;
+    list-style: none;
+}
+
+#nav-menu li{
+    padding: 10px 20px;
+}
+
+#nav-menu-active{
+    background: rgb(122, 122, 122,0.7);
+}
+
+#nav-menu a{
+    color: rgb(238, 238, 238);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Khmer OS Battambang";
+}
+
+main{
+    margin: 10px auto;
+    padding: 0 30px;
+    max-width: 1200px;
+}
+
+#sec1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#sec1 #block1{
+    background-image: url('../img/1277615-banner.jpg');
+    background-size: contain;
+    width: 600px;
+    height: 400px;
+    grid-row: 2 span;
+    transition: .3s linear;
+}
+
+#sec1 #block1 a{
+    text-decoration: none;
+}
+
+#sec1 #block1 p{
+    color: white;
+    vertical-align: bottom;
+    font-family: "Khmer OS Battambang";
+    width: 90%;
+    margin: 0 10px;
+}
+
+#sec1 #block2{
+    background-image: url("../img/1277948-banner.jpg");
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    transition: .3s linear;
+}
+
+#sec1 #block2 a{
+    text-decoration: none;
+}
+
+#sec1 #block2 p{
+    color: white;
+    vertical-align: bottom;
+    font-family: "Khmer OS Battambang";
+    width: 90%;
+    margin: 0 10px;
+}
+
+#sec1 #block3{
+    background-image: url("../img/1277957-banner.jpg");
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    transition: .3s linear;
+}
+
+#sec1 #block3 a{
+    text-decoration: none;
+}
+
+#sec1 #block3 p{
+    color: white;
+    vertical-align: bottom;
+    font-family: "Khmer OS Battambang";
+    width: 90%;
+    margin: 0 10px;
+}
+
+#sec1 #block1:hover, #sec1 #block2:hover, #sec1 #block3:hover{
+    filter: brightness(.5);
+}
+
+#sec1 #block1 div{
+    margin: 279px 0 0 0;
+}
+
+#sec1 #block1 p{
+    color: white;
+    font-size: 14px;
+}
+
+#sec1 #block1 #newsStamp{
+    background: orange;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+#sec1 #block1 p:nth-child(2)
+{
+    margin: 10px 0 0 10px;
+}
+
+#sec1 #block2 div{
+    margin: 90px 0 0 0;
+}
+
+#sec1 #block2 p{
+    color: white;
+    font-size: 14px;
+}
+
+#sec1 #block2 #newsStamp{
+    background: orange;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+#sec1 #block2 p:nth-child(2)
+{
+    margin: 10px 0 0 10px;
+}
+
+#sec1 #block3 div{
+    margin: 90px 0 0 0;
+}
+
+#sec1 #block3 p{
+    color: white;
+    font-size: 14px;
+}
+
+#sec1 #block3 #newsStamp{
+    background: orange;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+#sec1 #block3 p:nth-child(2)
+{
+    margin: 10px 0 0 10px;
+}
+
+#sec2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    margin: 30px 0;
+}
+
+#sec2 img{
+    width: 100%;
+}
+
+#sec2-form{
+    display: flex;
+    flex-direction: column;
+}
+
+#sec2-form-header a{
+    color: rgb(0, 132, 255);
+    text-decoration: none;
+}
+
+#form-stru{
+    display: flex;
+    flex-direction: column;
+}
+
+#form-stru-div1
+{
+    margin: 10px 0;
+}
+
+.news-banner{
+    width: 600px;
+    height: 300px;
+    background-image: url("../img/1277957-banner.jpg");
+    background-position: top;
+    background-size: cover;
+    transition: .1s linear;
+}
+
+.news-banner p{
+    margin: 220px 10px 0 10px;
+}
+
+.news-banner a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.news-banner:hover{
+    background-size: 110%;
+    background-position: top;
+    box-shadow: inset 0px 0px 23px 0px rgba(0,0,0,0.75);
+}
+
+.life-star-banner{
+    width: 600px;
+    height: 300px;
+    background-image: url("../img/1263955-banner.jpg");
+    background-position: top;
+    background-size: cover;
+    transition: .1s linear;
+}
+
+.life-star-banner p{
+    margin: 220px 10px 0 10px;
+}
+
+.life-star-banner a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.life-star-banner:hover{
+    background-size: 110%;
+    background-position: top;
+    box-shadow: inset 0px 0px 23px 0px rgba(0,0,0,0.75);
+}
+
+.fashion-star-banner{
+    width: 600px;
+    height: 300px;
+    background-image: url("../img/1275962-banner.jpg");
+    background-position: top;
+    background-size: cover;
+    transition: .1s linear;
+}
+
+.fashion-star-banner p{
+    margin: 220px 10px 0 10px;
+}
+
+.fashion-star-banner a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.fashion-star-banner:hover{
+    background-size: 110%;
+    background-position: top;
+    box-shadow: inset 0px 0px 23px 0px rgba(0,0,0,0.75);
+}
+
+.movie-banner{
+    width: 600px;
+    height: 300px;
+    background-image: url("../img/1277153-banner.jpg");
+    background-position: top;
+    background-size: cover;
+    transition: .1s linear;
+}
+
+.movie-banner p{
+    margin: 220px 10px 0 10px;
+}
+
+.movie-banner a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.movie-banner:hover{
+    background-size: 110%;
+    background-position: top;
+    box-shadow: inset 0px 0px 23px 0px rgba(0,0,0,0.75);
+}
+
+#form-stru-div2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+#form-stru-div2 a{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+footer{
+    padding: 40px 30px;
+    background: black;
+}
+
+footer h3, footer p, footer a{
+    font-family: "Khmer OS Battambang";
+}
+
+#footerSec{
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+}
+
+#footerSec1{
+    flex: 1;
+}
+
+#footerSec2{
+    flex: 2;
+    margin: 0 20px;
+}
+
+#footerSec3{
+    flex: 1;
+}
+
+#footerSec1 #par{
+    color: rgb(187, 187, 187);
+    font-size: 16px;
+}
+
+#footerSec1 #header{
+    color: white;
+    font-size: 18px;
+    margin: 20px 0 0 0;
+}
+
+#aboutUs{
+    font-size: 18px;
+    color: white;
+}
+
+#dec{
+    font-size: 16px;
+    color: rgb(187, 187, 187);
+}
+
+#ourSocialMedia{
+    font-size: 18px;
+    color: white;
+}
+
+#contact{
+    font-size: 16px;
+    color: white;
+}
+
+#footerSec3 a{
+    color: rgb(187, 187, 187);
+}
+
+#footerSec3 a:hover{
+    color: white;
+}
+
+#footerSec3 #tel{
+    color: rgb(187, 187, 187);
+}
+
+.fa-facebook-f, .fa-instagram, .fa-youtube{
+    color: rgb(187, 187, 187);
+    margin: 10px 10px 10px 0;
+    font-size: 25px;
+}
+
+.fa-facebook-f:hover, .fa-instagram:hover, .fa-youtube:hover{
+    color: white;
+}

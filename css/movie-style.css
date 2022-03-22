@@ -1,0 +1,318 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: "Khmer OS Battambang";
+}
+
+#logo-header{
+    background: black;
+    padding: 0 30px;
+}
+
+#logo img{
+    width: 80px;
+    padding: 10px 0;
+}
+
+nav{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#nav-menu-header{
+    background: rgb(172, 172, 37);
+    padding: 0 30px;
+}
+
+#nav-menu ul{
+    display: flex;
+    list-style: none;
+}
+
+#nav-menu li{
+    padding: 10px 20px;
+}
+
+#nav-menu-active{
+    background: rgb(122, 122, 122,0.7);
+}
+
+#nav-menu a{
+    color: rgb(238, 238, 238);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Khmer OS Battambang";
+}
+
+main{
+    margin: 10px auto;
+    padding: 0 30px;
+    max-width: 1200px;
+}
+
+#topic-header{
+    padding: 5px 10px;
+    background: rgb(4, 118, 170);
+    width: 70px;
+}
+
+#topic-header a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#topic-theme{
+    border-top: 3px solid rgb(4, 118, 170);
+    margin-right: 400px;
+    margin-top: -3px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#theme-sec1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+#topic-theme hr{
+    border-top: 1px solid grey;
+    text-decoration: none;
+}
+
+#banner1{
+    width: 360px;
+    height: 200px;
+    background-image: url("../img/1277153-banner.jpg");
+    background-position: top;
+    background-size: cover;
+    transition: .1s linear;
+}
+
+#banner1:hover{
+    box-shadow: inset 0px 0px 23px 0px rgba(0,0,0,0.75);
+    background-size: 110%;
+    background-position: top;
+}
+
+#banner2{
+    width: 360px;
+    height: 200px;
+    background-image: url("../img/1275815-banner.jpg");
+    background-position: top;
+    background-size: cover;
+    transition: .1s linear;
+}
+
+#banner2:hover{
+    box-shadow: inset 0px 0px 23px 0px rgba(0,0,0,0.75);
+    background-size: 110%;
+    background-position: top;
+}
+
+#theme-sec1{
+    display: flex;
+}
+
+#theme-sec1-div1{
+    margin-right: 10px;
+}
+
+#theme-sec1-div2{
+    margin-left: 10px;
+}
+
+#theme-sec2{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0 10px 0;
+}
+
+#theme-sec2-div1-topic1{
+    width: 300px;
+    height: 150px;
+    background-image: url("../img/1271653-banner.jpg");
+    background-position: top;
+    background-size: cover;
+    transition: .1s linear;
+}
+
+#theme-sec2-div1-topic1:hover{
+    box-shadow: inset 0px 0px 23px 0px rgba(0,0,0,0.75);
+    background-size: 110%;
+    background-position: top;
+}
+
+#theme-sec2-div1-topic2{
+    width: 300px;
+    height: 150px;
+    background-image: url("../img/1268005-banner.jpg");
+    background-position: top;
+    background-size: cover;
+    transition: .1s linear;
+}
+
+#theme-sec2-div1-topic2:hover{
+    box-shadow: inset 0px 0px 23px 0px rgba(0,0,0,0.75);
+    background-size: 110%;
+    background-position: top;
+}
+
+#theme-sec2-div1-topic3{
+    width: 300px;
+    height: 150px;
+    background-image: url("../img/1262656-banner.jpg");
+    background-position: top;
+    background-size: cover;
+    transition: .1s linear;
+}
+
+#theme-sec2-div1-topic3:hover{
+    box-shadow: inset 0px 0px 23px 0px rgba(0,0,0,0.75);
+    background-size: 110%;
+    background-position: top;
+}
+
+#theme-sec2-div1-topic4{
+    width: 300px;
+    height: 150px;
+    background-image: url("../img/1260734-banner.jpg");
+    background-position: top;
+    background-size: cover;
+    transition: .1s linear;
+}
+
+#theme-sec2-div1-topic4:hover{
+    box-shadow: inset 0px 0px 23px 0px rgba(0,0,0,0.75);
+    background-size: 110%;
+    background-position: top;
+}
+
+#theme-sec2-div1-topic5{
+    width: 300px;
+    height: 150px;
+    background-image: url("../img/1260659-banner.jpg");
+    background-position: top;
+    background-size: cover;
+    transition: .1s linear;
+}
+
+#theme-sec2-div1-topic5:hover{
+    box-shadow: inset 0px 0px 23px 0px rgba(0,0,0,0.75);
+    background-size: 110%;
+    background-position: top;
+}
+
+#theme-sec2-div2{
+    margin-left: 15px;
+}
+
+#theme-sec2-form{
+    display: flex;
+    margin: 10px 0;
+}
+
+#theme-sec2-form a{
+    text-decoration: none;
+}
+
+.theme-sec2-form-header{
+    font-weight: 700;
+    color: black;
+}
+
+.theme-sec2-form-time{
+    color: grey;
+    font-size: 14px;
+}
+
+.theme-sec2-form-dec{
+    color: rgb(99, 98, 98);
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+footer{
+    padding: 40px 30px;
+    background: black;
+}
+
+footer h3, footer p, footer a{
+    font-family: "Khmer OS Battambang";
+}
+
+#footerSec{
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+}
+
+#footerSec1{
+    flex: 1;
+}
+
+#footerSec2{
+    flex: 2;
+    margin: 0 20px;
+}
+
+#footerSec3{
+    flex: 1;
+}
+
+#footerSec1 #par{
+    color: rgb(187, 187, 187);
+    font-size: 16px;
+}
+
+#footerSec1 #header{
+    color: white;
+    font-size: 18px;
+    margin: 20px 0 0 0;
+}
+
+#aboutUs{
+    font-size: 18px;
+    color: white;
+}
+
+#dec{
+    font-size: 16px;
+    color: rgb(187, 187, 187);
+}
+
+#ourSocialMedia{
+    font-size: 18px;
+    color: white;
+}
+
+#contact{
+    font-size: 16px;
+    color: white;
+}
+
+#footerSec3 a{
+    color: rgb(187, 187, 187);
+}
+
+#footerSec3 a:hover{
+    color: white;
+}
+
+#footerSec3 #tel{
+    color: rgb(187, 187, 187);
+}
+
+.fa-facebook-f, .fa-instagram, .fa-youtube{
+    color: rgb(187, 187, 187);
+    margin: 10px 10px 10px 0;
+    font-size: 25px;
+}
+
+.fa-facebook-f:hover, .fa-instagram:hover, .fa-youtube:hover{
+    color: white;
+}
